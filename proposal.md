@@ -24,9 +24,9 @@ Mi Turno FC es un sistema para gestionar reservas de canchas de fútbol. Solamen
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Tamaño Cancha<br>2. CRUD Material Cancha|
-|CRUD dependiente|1. CRUD Cancha {depende de} CRUD Tamaño Cancha y Material Cancha|
-|Listado<br>+<br>detalle| 1. Listado de Canchas libres filtrado por Material, Tamaño y fecha => detalle Crud Reserva<br> 2. Listado de Reservas filtrado por fecha: muestra número de Cancha, hora de inicio, hora de finalizado y nombre del Cliente => detalle muestra datos completos de la reserva y del cliente|
+|CRUD simple|1. CRUD Tamaño Cancha<br>2. CRUD Tipo de Cancha|
+|CRUD dependiente|1. CRUD Cancha {depende de} CRUD Tamaño Cancha y Tipo de Cancha|
+|Listado<br>+<br>detalle| 1. Listado de Canchas libres filtrado por Tipo, Tamaño y fecha => detalle Crud Reserva<br> 2. Listado de Reservas filtrado por fecha: muestra número de Cancha, hora de inicio, hora de finalizado y nombre del Cliente => detalle muestra datos completos de la reserva y del cliente|
 |CUU/Epic|1. Reservar una cancha.|
 
 Adicionales para Aprobación Directa:
